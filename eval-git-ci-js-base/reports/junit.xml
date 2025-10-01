@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="6" failures="0" errors="0" time="0.143">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2025-10-01T13:08:34" time="0.116" tests="6">
+    <testcase classname=" initial task list is empty" name=" initial task list is empty" time="0.002">
+    </testcase>
+    <testcase classname="addTask adds a task with a unique id" name="addTask adds a task with a unique id" time="0">
+    </testcase>
+    <testcase classname="addTask trims task name" name="addTask trims task name" time="0">
+    </testcase>
+    <testcase classname="addTask sets done to false by default" name="addTask sets done to false by default" time="0">
+    </testcase>
+    <testcase classname="addTask throws error if name is empty" name="addTask throws error if name is empty" time="0.003">
+    </testcase>
+    <testcase classname="addTask throws error if name is not a string" name="addTask throws error if name is not a string" time="0">
+    </testcase>
+  </testsuite>
+</testsuites>
