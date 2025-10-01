@@ -31,4 +31,14 @@ function reset() {
   nextId = 1;
 }
 
+
+function toggleTask(id){
+  const task = task.find(t => t.id === id);
+  if (task){
+    task.done = !task.done;
+  }
+}
+
+
+
 module.exports = { getTasks, addTask, reset };
