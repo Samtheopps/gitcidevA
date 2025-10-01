@@ -9,9 +9,26 @@ function getTasks() {
 }
 
 
+function addTask(title, description = '') {
+  if (!title || typeof title !== 'string' || title.trim() === '') {
+    throw new Error('Task title is required and must be a non-empty string');
+  }
+  
+  const task = {
+    id: nextId++,
+    title: title.trim(),
+    description: description.trim(),
+    completed: false,
+    createdAt: new Date().toISOString()
+  };
+  
+  tasks.push(task);
+  return task;
+}
+
 function reset() {
   tasks = [];
   nextId = 1;
 }
 
-module.exports = { getTasks, reset };
+module.exports = { getTasks, addTask, reset };

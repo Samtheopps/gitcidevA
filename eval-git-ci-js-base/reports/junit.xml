@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="1" failures="0" errors="0" time="0.071">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2025-10-01T12:48:35" time="0.056" tests="1">
+    <testcase classname=" initial task list is empty" name=" initial task list is empty" time="0">
+    </testcase>
+  </testsuite>
+</testsuites>
