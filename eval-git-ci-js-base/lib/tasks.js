@@ -22,6 +22,16 @@ function toggleTask(id){
   }
 }
 
+function countDone(){
+  let count = 0;
+  for (const task of tasks){
+    if (task.done) {
+      count++;
+    }
+  }
+  return count;
+}
+
 
 
 module.exports = { getTasks, reset };
